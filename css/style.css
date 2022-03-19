@@ -4,8 +4,7 @@ body {
 
 /* Navbar */
 .nav-item {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0px 10px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -47,6 +46,46 @@ body {
   transition: transform 1s ease-in;
 }
 
+.card-parent {
+  padding-bottom: 60px;
+}
+
 .card-parent:hover .card {
   transform: translate(-30px);
+}
+
+/* Testimonials */
+#testimonial-carousel {
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 5rem;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 60px 50px 0px 50px;
+}
+
+.parents {
+  float: left;
+  width: 400px;
+}
+
+/* Pricipal */
+.principal-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.principal-comment {
+  text-align: center;
+  padding: 20px 50px 0px 50px;
+  line-height: 1.5;
+  font-size: 2.5rem;
 }
