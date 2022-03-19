@@ -44,4 +44,9 @@ body {
   margin: 0 auto;
   float: none;
   margin-bottom: 30px;
+  transition: transform 1s ease-in;
+}
+
+.card-parent:hover .card {
+  transform: translate(-30px);
 }
